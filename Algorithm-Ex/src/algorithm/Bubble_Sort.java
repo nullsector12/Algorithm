@@ -1,8 +1,9 @@
 package algorithm;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
-public class Bubble_sort {
+public class Bubble_Sort {
 	
 	/*
 	 * 2020. 07. 02 작성
@@ -28,6 +29,7 @@ public class Bubble_sort {
 		
 		// 저장된 list 배열값 출력
 		System.out.println(list);
+		
 		
 		// list의 size만큼 아래 for문을 반복
 		for (int j = 0; j < list.size(); j++) {

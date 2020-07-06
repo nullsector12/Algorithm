@@ -2,7 +2,7 @@ package algorithm;
 
 import java.util.ArrayList;
 
-public class Selection_sort {
+public class Selection_Sort {
 	
 	/*
 	 * 2020. 07. 02 작성
@@ -30,6 +30,7 @@ public class Selection_sort {
 		
 		// 최소값 Index번호와 변경할 값을 저장할 변수 선언
 		int minIndex, change;
+		
 		// list 내부의 최소값 비교 반복을 위한 for문
 		// list.size()-1 하는 이유 : 마지막 반복이 size인 10의 -1번째에서 끝나도록 하기 위해
 		// size = 10일 때 인덱스 번호는 0 ~ 9
