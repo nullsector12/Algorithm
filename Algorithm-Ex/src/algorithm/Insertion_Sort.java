@@ -5,24 +5,24 @@ import java.util.Arrays;
 
 public class Insertion_Sort {
 	
-	/*
-	 * 2020. 07. 06 ÀÛ¼º
-	 * ¾Ë°í¸®Áò ¹®Á¦ ¿¬½À
-	 * Title : Insertion Sort
-	 * Goal	:	1. Selection sort ¿¡ ´ëÇØ ¼³¸í 
-	 * 			2. Selection sort °úÁ¤¿¡ ´ëÇØ ¼³¸í
-	 * 			3. Selection sort ±¸Çö
-	 * 
-	 * Á¶°Ç : Á¤·ÄÀº 2¹øÂ° indexÀÇ °ªÀ» temp¿¡ ÀúÀå -> temp¿Í ÀÌÀü ¿ø¼ÒµéÀ» ºñ±³ÇÏ¸ç »ðÀÔ -> '1'¹øÀ¸·Î µ¹¾Æ°¡ ´ÙÀ½ indexÀÇ °ªÀ» temp¿¡ ÀúÀå, ¹Ýº¹
-	 * 
-	 * review :
-	 * 
-	 * 		1. ÇÑ¹ø »Ì¾Æ¼­ ÀÓ½ÃÀúÀåÇÑ °ªÀ» ÀÚ¸®¸¸ º¯°æÇÏ°í °ªÀ» ¹Ù²Ù¸é ¾ÈµÇ´Âµ¥ ÀÌÀü SortµéÀ» »ý°¢ÇÏ´À¶ó »õ °ªÀ» ´ëÀÔÇÏ¿© ¹Ýº¹ÀûÀ¸·Î ºñ±³ÇÏÁö ¸øÇÔ.
-	 * 		2. ¾ó¸¸Å­ ¹Ýº¹ÇØ¾ß ÇÒ Áö ¸ð¸£´Âµ¥ ¾Õ¿¡¼­ °è¼Ó ½á¿Â for¹®¸¸ °íÁýÇÔ. ÇÑ°¡Áö ¹æ¹ýÀÌ³ª ¹æÇâÀÌ ¾Æ´Ñ ´Ù¾çÇÑ Á¢±Ù¹ýµµ °í·ÁÇØº¸ÀÚ.
-	 * 		3. ¼ÖÁ÷È÷ list ¾²¸é sort °³ÆíÇÏ´Ù.
-	 * 		4. ¼ÕÄÚµù ÈÄ IDE¿¡ ¿Å°Ü ±¸ÇöÇØº¸°í °á°ú°¡ ´Ù¸¥ ÀÌÀ¯¿¡ ´ëÇØ ÇØ°á ÈÄ ´Ù½Ã ¼ÕÄÚµùÀ¸·Î ÇÏ³ªÇÏ³ª È®ÀÎÇØº¸ÀÚ.
-	 * 
-	 * */
+    /*
+     * 2020. 07. 06 ìž‘ì„±
+     * ì•Œê³ ë¦¬ì¦˜ ë¬¸ì œ ì—°ìŠµ
+     * Title : Insertion Sort
+     * Goal    :    1. Selection sort ì— ëŒ€í•´ ì„¤ëª… 
+     *             2. Selection sort ê³¼ì •ì— ëŒ€í•´ ì„¤ëª…
+     *             3. Selection sort êµ¬í˜„
+     * 
+     * ì¡°ê±´ : ì •ë ¬ì€ 2ë²ˆì§¸ indexì˜ ê°’ì„ tempì— ì €ìž¥ -> tempì™€ ì´ì „ ì›ì†Œë“¤ì„ ë¹„êµí•˜ë©° ì‚½ìž… -> '1'ë²ˆìœ¼ë¡œ ëŒì•„ê°€ ë‹¤ìŒ indexì˜ ê°’ì„ tempì— ì €ìž¥, ë°˜ë³µ
+     * 
+     * review :
+     * 
+     *        1. í•œë²ˆ ë½‘ì•„ì„œ ìž„ì‹œì €ìž¥í•œ ê°’ì„ ìžë¦¬ë§Œ ë³€ê²½í•˜ê³  ê°’ì„ ë°”ê¾¸ë©´ ì•ˆë˜ëŠ”ë° ì´ì „ Sortë“¤ì„ ìƒê°í•˜ëŠë¼ ìƒˆ ê°’ì„ ëŒ€ìž…í•˜ì—¬ ë°˜ë³µì ìœ¼ë¡œ ë¹„êµí•˜ì§€ ëª»í•¨.
+     *        2. ì–¼ë§Œí¼ ë°˜ë³µí•´ì•¼ í•  ì§€ ëª¨ë¥´ëŠ”ë° ì•žì—ì„œ ê³„ì† ì¨ì˜¨ forë¬¸ë§Œ ê³ ì§‘í•¨. í•œê°€ì§€ ë°©ë²•ì´ë‚˜ ë°©í–¥ì´ ì•„ë‹Œ ë‹¤ì–‘í•œ ì ‘ê·¼ë²•ë„ ê³ ë ¤í•´ë³´ìž.
+     *        3. ì†”ì§ížˆ list ì“°ë©´ sort ê°œíŽ¸í•˜ë‹¤.
+     *        4. ì†ì½”ë”© í›„ IDEì— ì˜®ê²¨ êµ¬í˜„í•´ë³´ê³  ê²°ê³¼ê°€ ë‹¤ë¥¸ ì´ìœ ì— ëŒ€í•´ í•´ê²° í›„ ë‹¤ì‹œ ì†ì½”ë”©ìœ¼ë¡œ í•˜ë‚˜í•˜ë‚˜ í™•ì¸í•´ë³´ìž.
+     * 
+     * */
 	
 	public static void main(String[] args) {
 		
@@ -36,18 +36,18 @@ public class Insertion_Sort {
 			
 			
 			
-			// Ã¹¹øÂ° ÀÎµ¦½º ¾Õ¿¡´Â ¾Æ¹« °ªµµ ¾ø±â¶§¹®¿¡ µÎ¹øÂ° ÀÎµ¦½ººÎÅÍ Å½»ö ½ÃÀÛ
+			// ì²«ë²ˆì§¸ ì¸ë±ìŠ¤ ì•žì—ëŠ” ì•„ë¬´ ê°’ë„ ì—†ê¸°ë•Œë¬¸ì— ë‘ë²ˆì§¸ ì¸ë±ìŠ¤ë¶€í„° íƒìƒ‰ ì‹œìž‘
 			for(int i = 1; i < arr.length; i++) {
-				int temp = arr[i]; // µÎ¹øÂ° ÀÎµ¦½º °ªÀ» temp¿¡ ÀÓ½ÃÀúÀå
-				int prev = i-1; // temp°ª ÀÌÀüÀÇ ÀÎµ¦½º °ª ÀúÀå
-				while( (prev >= 0) && (arr[prev] > temp) ) { // ÀÌÀü°ª ÀÎµ¦½º´Â 0ÀÌ µÇÁö ¾Ê°í, ÀÌÀü°ªÀÌ temp°ªº¸´Ù Å©¸é
-					arr[prev+1] = arr[prev]; // ÀÌÀü°ª ¹Ù·Î ¾ÕÀÚ¸®(temp ÀÚ¸®)¿¡ ÀÌÀü ÀÚ¸®ÀÇ(prev ÀÚ¸®)°ªÀ» ÀúÀåÇÏ°í
-					prev--; // ÀÌÀü°ªÀ» ´õ ÀÌÀü À§Ä¡·Î ÀÌµ¿ÇÑ´Ù.(À½¼ö°¡ µÇ¸é ÀÚµ¿À¸·Î while¹® Á¤Áö)
+				int temp = arr[i];  // ë‘ë²ˆì§¸ ì¸ë±ìŠ¤ ê°’ì„ tempì— ìž„ì‹œì €ìž¥
+				int prev = i-1; // tempê°’ ì´ì „ì˜ ì¸ë±ìŠ¤ ê°’ ì €ìž¥
+				while( (prev >= 0) && (arr[prev] > temp) ) { // ì´ì „ê°’ ì¸ë±ìŠ¤ëŠ” 0ì´ ë˜ì§€ ì•Šê³ , ì´ì „ê°’ì´ tempê°’ë³´ë‹¤ í¬ë©´
+					arr[prev+1] = arr[prev]; // ì´ì „ê°’ ë°”ë¡œ ì•žìžë¦¬(temp ìžë¦¬)ì— ì´ì „ ìžë¦¬ì˜(prev ìžë¦¬)ê°’ì„ ì €ìž¥í•˜ê³ 
+					prev--; // ì´ì „ê°’ì„ ë” ì´ì „ ìœ„ì¹˜ë¡œ ì´ë™í•œë‹¤.(ìŒìˆ˜ê°€ ë˜ë©´ ìžë™ìœ¼ë¡œ whileë¬¸ ì •ì§€)
 				}
 				arr[prev + 1] = temp; 
-				// prev°¡ À½¼ö°¡ µÇ°Å³ª temp°ªÀÌ ÀÌÀü°ªº¸´Ù Å« °æ¿ì while·çÇÁ¸¦ ³ª¿À¸é
-				// ÀÚµ¿À¸·Î prev¿¡´Â ÇöÀç temp°ªº¸´Ù ÀÛÀº °ªµé Áß¿¡¼­ Á¦ÀÏ Å« °ªÀÇ À§Ä¡¸¦ °¡¸®Å´
-				// ÀÌÀü°ª ¹Ù·Î ¾Õ¿¡ ÇöÀç temp°ªÀ» »ðÀÔÇØÁØ´Ù.
+				// prevê°€ ìŒìˆ˜ê°€ ë˜ê±°ë‚˜ tempê°’ì´ ì´ì „ê°’ë³´ë‹¤ í° ê²½ìš° whileë£¨í”„ë¥¼ ë‚˜ì˜¤ë©´
+				// ìžë™ìœ¼ë¡œ prevì—ëŠ” í˜„ìž¬ tempê°’ë³´ë‹¤ ìž‘ì€ ê°’ë“¤ ì¤‘ì—ì„œ ì œì¼ í° ê°’ì˜ ìœ„ì¹˜ë¥¼ ê°€ë¦¬í‚´
+				// ì´ì „ê°’ ë°”ë¡œ ì•žì— í˜„ìž¬ tempê°’ì„ ì‚½ìž…í•´ì¤€ë‹¤.
 		}
 		System.out.println(Arrays.toString(arr));
 	}

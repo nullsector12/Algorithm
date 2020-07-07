@@ -5,55 +5,55 @@ import java.util.Collections;
 
 public class Bubble_Sort {
 	
-	/*
-	 * 2020. 07. 02 ÀÛ¼º
-	 * ¾Ë°í¸®Áò ¹®Á¦ ¿¬½À
-	 * Title : Bubble sort
-	 * Goal	:	1. Bubble sort ¿¡ ´ëÇØ ¼³¸í 
-	 * 			2. Bubble sort °úÁ¤¿¡ ´ëÇØ ¼³¸í
-	 * 			3. Bubble sort ±¸Çö
-	 * 
-	 * Á¶°Ç : ¼­·Î ÀÎÁ¢ÇÑ µÎ ¿ø¼ÒÀÇ ´ë¼Ò¸¦ ºñ±³ -> Á¶°Ç¿¡ ¸ÂÁö ¾Ê´Â´Ù¸é ÀÚ¸®¸¦ ±³È¯ÇÏ¸é¼­ Á¤·Ä
-	 * */
+    /*
+     * 2020. 07. 02 ì‘ì„±
+     * ì•Œê³ ë¦¬ì¦˜ ë¬¸ì œ ì—°ìŠµ
+     * Title : Bubble sort
+     * Goal    :    1. Bubble sort ì— ëŒ€í•´ ì„¤ëª… 
+     *             2. Bubble sort ê³¼ì •ì— ëŒ€í•´ ì„¤ëª…
+     *             3. Bubble sort êµ¬í˜„
+     * 
+     * ì¡°ê±´ : ì„œë¡œ ì¸ì ‘í•œ ë‘ ì›ì†Œì˜ ëŒ€ì†Œë¥¼ ë¹„êµ -> ì¡°ê±´ì— ë§ì§€ ì•ŠëŠ”ë‹¤ë©´ ìë¦¬ë¥¼ êµí™˜í•˜ë©´ì„œ ì •ë ¬
+     * */
 	
 	public static void main(String[] args) {
 		
-		// ArrayList¸¦ »ı¼º
+		// ArrayListë¥¼ ìƒì„±
 		ArrayList <Integer> list = new ArrayList<Integer>();
 		
-		// ArrayList ¹è¿­¿¡ random °ªÀ» ³Ö¾îÁÜ
+		// ArrayList ë°°ì—´ì— random ê°’ì„ ë„£ì–´ì¤Œ
 		for (int i = 0; i < 10; i++) {
 			int randNum = (int)(Math.random()*100)+1;
 			list.add(randNum);
 		}
 		
-		// ÀúÀåµÈ list ¹è¿­°ª Ãâ·Â
+		// ì €ì¥ëœ list ë°°ì—´ê°’ ì¶œë ¥
 		System.out.println(list);
 		
 		
-		// listÀÇ size¸¸Å­ ¾Æ·¡ for¹®À» ¹İº¹
+	    // listì˜ sizeë§Œí¼ ì•„ë˜ forë¬¸ì„ ë°˜ë³µ
 		for (int j = 0; j < list.size(); j++) {
 			
-			// ÀÎµ¦½º°ªÀ» ¹İÈ¯ÇÏ¿© list.size-1¹ø¸¸Å­ for¹® ¹İº¹
-			// size-1 ÇÏ´Â ÀÌÀ¯ : i°ªÀ» ÀÎµ¦½º°ªÀ¸·Î »ç¿ëÇÏ±â ¶§¹®¿¡ 
-			// ¹İº¹À» ÅëÇØ Áõ°¡ÇÏ´Â i°ª(list.size() = 10 / ÀÎµ¦½º ¹üÀ§´Â 0~9)ÀÌ ÀÎµ¦½º ¹üÀ§¸¦ ³Ñ¾î°¡Áö ¾Ê±âÀ§ÇØ -1À» ÇØÁØ´Ù.
+            // ì¸ë±ìŠ¤ê°’ì„ ë°˜í™˜í•˜ì—¬ list.size-1ë²ˆë§Œí¼ forë¬¸ ë°˜ë³µ
+            // size-1 í•˜ëŠ” ì´ìœ  : iê°’ì„ ì¸ë±ìŠ¤ê°’ìœ¼ë¡œ ì‚¬ìš©í•˜ê¸° ë•Œë¬¸ì— 
+            // ë°˜ë³µì„ í†µí•´ ì¦ê°€í•˜ëŠ” iê°’(list.size() = 10 / ì¸ë±ìŠ¤ ë²”ìœ„ëŠ” 0~9)ì´ ì¸ë±ìŠ¤ ë²”ìœ„ë¥¼ ë„˜ì–´ê°€ì§€ ì•Šê¸°ìœ„í•´ -1ì„ í•´ì¤€ë‹¤.
 			for(int i = 0;i < list.size()-1; i++) {
 			
-				// ºñ±³ÇÒ ¼ıÀÚ¸¦ index i¹ø¿¡¼­ Ãâ·Â
+				// ë¹„êµí•  ìˆ«ìë¥¼ index ië²ˆì—ì„œ ì¶œë ¥
 				int checkNum0 = list.get(i);
 				
-				// ºñ±³ÇØÁÙ ¼ıÀÚ¸¦ index i+1¹ø¿¡¼­ Ãâ·Â
+				// ë¹„êµí•´ì¤„ ìˆ«ìë¥¼ index i+1ë²ˆì—ì„œ ì¶œë ¥
 				int checkNum1 = list.get(i+1);
 				
-				// Á¶°Ç½ÄÀ» ÅëÇØ checkNum0 °ú checkNum1 À» ºñ±³ ÈÄ À§Ä¡¸¦ Á¤·ÄÇØÁÜ
-				// checkNum0 ÀÌ checkNum1 º¸´Ù Å« °æ¿ì
+                // ì¡°ê±´ì‹ì„ í†µí•´ checkNum0 ê³¼ checkNum1 ì„ ë¹„êµ í›„ ìœ„ì¹˜ë¥¼ ì •ë ¬í•´ì¤Œ
+                // checkNum0 ì´ checkNum1 ë³´ë‹¤ í° ê²½ìš°
 				 if(checkNum0 > checkNum1) {
-					// checkNum1 °ªÀÌ ¼Ò¸êÇÏÁö ¾Êµµ·Ï º¯¼ö¿¡ ÀúÀåÇØÁÜ
+					// checkNum1 ê°’ì´ ì†Œë©¸í•˜ì§€ ì•Šë„ë¡ ë³€ìˆ˜ì— ì €ì¥í•´ì¤Œ
 					int savecheckNum1 = checkNum1;
 					
-					// setÀ» ÅëÇØ i+1 ¹ø¿¡ checkNum0 °ªÀ» set ÇØÁÜ
+					// setì„ í†µí•´ i+1 ë²ˆì— checkNum0 ê°’ì„ set í•´ì¤Œ
 					list.set(i+1, checkNum0);
-					// i¹øÁö¿¡ º¯¼ö·Î ÀúÀåÇØµĞ checkNum1 °ªÀ» ³Ö¾îÁÜ
+					// ië²ˆì§€ì— ë³€ìˆ˜ë¡œ ì €ì¥í•´ë‘” checkNum1 ê°’ì„ ë„£ì–´ì¤Œ
 					list.set(i, savecheckNum1);	
 				}
 			}

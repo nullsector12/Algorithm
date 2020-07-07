@@ -5,15 +5,15 @@ import java.util.ArrayList;
 public class Selection_Sort {
 	
 	/*
-	 * 2020. 07. 02 ÀÛ¼º
-	 * ¾Ë°í¸®Áò ¹®Á¦ ¿¬½À
-	 * Title : Selection sort
-	 * Goal	:	1. Selection sort ¿¡ ´ëÇØ ¼³¸í 
-	 * 			2. Selection sort °úÁ¤¿¡ ´ëÇØ ¼³¸í
-	 * 			3. Selection sort ±¸Çö
-	 * 
-	 * Á¶°Ç : ÁÖ¾îÁø ¹è¿­¿¡¼­ ÃÖ¼Ò°ª Ã£±â -> ÇØ´ç ÃÖ¼Ò°ªÀ» ¸Ç ¾Õ¿¡ À§Ä¡ÇÑ °ª°ú ±³Ã¼-> ¸Ç Ã³À½ À§Ä¡¸¦ »« ³ª¸ÓÁö À§Ä¡¿¡¼­ ¹İº¹
-	 * */
+     * 2020. 07. 02 ì‘ì„±
+     * ì•Œê³ ë¦¬ì¦˜ ë¬¸ì œ ì—°ìŠµ
+     * Title : Selection sort
+     * Goal    :    1. Selection sort ì— ëŒ€í•´ ì„¤ëª… 
+     *             2. Selection sort ê³¼ì •ì— ëŒ€í•´ ì„¤ëª…
+     *             3. Selection sort êµ¬í˜„
+     * 
+     * ì¡°ê±´ : ì£¼ì–´ì§„ ë°°ì—´ì—ì„œ ìµœì†Œê°’ ì°¾ê¸° -> í•´ë‹¹ ìµœì†Œê°’ì„ ë§¨ ì•ì— ìœ„ì¹˜í•œ ê°’ê³¼ êµì²´-> ë§¨ ì²˜ìŒ ìœ„ì¹˜ë¥¼ ëº€ ë‚˜ë¨¸ì§€ ìœ„ì¹˜ì—ì„œ ë°˜ë³µ
+     */
 	
 	public static void main(String[] args) {
 		
@@ -28,36 +28,36 @@ public class Selection_Sort {
 
 		System.out.println(list);
 		
-		// ÃÖ¼Ò°ª Index¹øÈ£¿Í º¯°æÇÒ °ªÀ» ÀúÀåÇÒ º¯¼ö ¼±¾ğ
+		// ìµœì†Œê°’ Indexë²ˆí˜¸ì™€ ë³€ê²½í•  ê°’ì„ ì €ì¥í•  ë³€ìˆ˜ ì„ ì–¸
 		int minIndex, change;
 		
-		// list ³»ºÎÀÇ ÃÖ¼Ò°ª ºñ±³ ¹İº¹À» À§ÇÑ for¹®
-		// list.size()-1 ÇÏ´Â ÀÌÀ¯ : ¸¶Áö¸· ¹İº¹ÀÌ sizeÀÎ 10ÀÇ -1¹øÂ°¿¡¼­ ³¡³ªµµ·Ï ÇÏ±â À§ÇØ
-		// size = 10ÀÏ ¶§ ÀÎµ¦½º ¹øÈ£´Â 0 ~ 9
+        // list ë‚´ë¶€ì˜ ìµœì†Œê°’ ë¹„êµ ë°˜ë³µì„ ìœ„í•œ forë¬¸
+        // list.size()-1 í•˜ëŠ” ì´ìœ  : ë§ˆì§€ë§‰ ë°˜ë³µì´ sizeì¸ 10ì˜ -1ë²ˆì§¸ì—ì„œ ëë‚˜ë„ë¡ í•˜ê¸° ìœ„í•´
+        // size = 10ì¼ ë•Œ ì¸ë±ìŠ¤ ë²ˆí˜¸ëŠ” 0 ~ 9
 		for (int i = 0; i < list.size()-1; i++) {
 			
-			// list ³»ÀÇ ÃÖ¼Ò°ªÀ» ÀúÀåÇÒ Index ¼³Á¤
+			// list ë‚´ì˜ ìµœì†Œê°’ì„ ì €ì¥í•  Index ì„¤ì •
 			minIndex = i;
 			
-			// list ³»ÀÇ °ªµé°ú ºñ±³ÇÏ±â À§ÇÑ for ¹İº¹¹®
+			// list ë‚´ì˜ ê°’ë“¤ê³¼ ë¹„êµí•˜ê¸° ìœ„í•œ for ë°˜ë³µë¬¸
 			for(int j = i+1; j < list.size(); j++) {
-				// i+1¹ø ÀÎµ¦½ºÀÇ °ªÀÌ i¹ø ÀÎµ¦½º °ªº¸´Ù ÀÛÀ¸¸é
+				//  i+1ë²ˆ ì¸ë±ìŠ¤ì˜ ê°’ì´ ië²ˆ ì¸ë±ìŠ¤ ê°’ë³´ë‹¤ ì‘ìœ¼ë©´
 				 if(list.get(j) < list.get(minIndex)) {   
-					 // ÃÖ¼Ò°ª Index ¹øÈ£´Â j·Î º¯°æ
+					 // ìµœì†Œê°’ Index ë²ˆí˜¸ëŠ” jë¡œ ë³€ê²½
 					 minIndex = j;
 					 
 					// list[1] < list [0] =  minIndex -> [1]
 				}
 			}
-			// ÀÚ¸® º¯°æÀ» À§ÇØ change ¿¡  minIndexÀÇ °ª ÀúÀå 
-			// change = list[1]
+            // ìë¦¬ ë³€ê²½ì„ ìœ„í•´ change ì—  minIndexì˜ ê°’ ì €ì¥ 
+            // change = list[1]
 			change = list.get(minIndex);
 			
-			// listÀÇ minIndex=j¹ø ÀÎµ¦½º¿¡ i¹ø ÀÎµ¦½ºÀÇ °ª ÀúÀå
+			// listì˜ minIndex=jë²ˆ ì¸ë±ìŠ¤ì— ië²ˆ ì¸ë±ìŠ¤ì˜ ê°’ ì €ì¥
 			// list[1] = list[0]
 			list.set(minIndex, list.get(i)) ;
 		
-			// listÀÇ i¹ø ÀÎµ¦½º¿¡ minIndex=j¹ø ÀÎµ¦½ºÀÇ °ª ÀúÀå
+			// listì˜ ië²ˆ ì¸ë±ìŠ¤ì— minIndex=jë²ˆ ì¸ë±ìŠ¤ì˜ ê°’ ì €ì¥
 			// list[0] = list[1]
 			list.set(i, change);
 		}
