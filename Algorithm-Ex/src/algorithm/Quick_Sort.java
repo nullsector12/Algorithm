@@ -26,6 +26,10 @@ public class Quick_Sort {
 	 * 
 	 * */
 	
+	
+	
+	
+	
 	public static void main(String[] args) {
 		
 			int[] arr = new int[10];
@@ -35,7 +39,6 @@ public class Quick_Sort {
 				arr[i] = randNum;
 			}
 			System.out.println(Arrays.toString(arr));
-			
 			
 	}
 }	
