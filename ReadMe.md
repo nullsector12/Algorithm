@@ -12,4 +12,5 @@
                                        / 10950 A+B -3 https://www.acmicpc.net/problem/10950
                                        / 8393 합 https://www.acmicpc.net/problem/8393 / Clear!
                                         
-2020. 10. 01 - BaekJoon 알고리즘 문제번호 15552 빠른 A+B https://www.acmicpc.net/problem/15552 / Clear! (BufferedReader와 BufferedWriter 사용관련 문제)
+2020. 10. 01 - BaekJoon 알고리즘 문제번호 15552 빠른 A+B https://www.acmicpc.net/problem/15552 / Clear! 
+                                               (BufferedReader와 BufferedWriter 사용관련 문제)
