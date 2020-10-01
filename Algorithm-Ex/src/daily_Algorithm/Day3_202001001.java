@@ -12,6 +12,7 @@ import java.util.StringTokenizer;
  * 기존의 입출력은 Scanner와 System.out을 위주로 사용하였으나 
  * 속도면에서 Buffer를 사용하는 것이 더욱 좋다. 
  * BufferdReader / BufferedWriter / StringTokenizer에 대한 자세한 설명은 블로그 참조
+ * https://blog.naver.com/rlatmd017/222104730098
  * 
  * 
  */
