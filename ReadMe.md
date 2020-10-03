@@ -19,4 +19,7 @@
                                          2742 기찍 N https://www.acmicpc.net/problem/2742
                                          11021 A+B - 7 https://www.acmicpc.net/problem/11021
                                          11022 A+B - 8 https://www.acmicpc.net/problem/11022 / All Clear!
+
+2020. 10. 03 - BaekJoon 알고리즘 문제번호 2438 별 찍기 - 1 https://www.acmicpc.net/problem/2438
+                                         2439 별 찍기 - 2 https://www.acmicpc.net/problem/2439 / All Clear!
                                          
