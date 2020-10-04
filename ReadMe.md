@@ -11,7 +11,7 @@
 > 문제번호
 > * 2884 알람시계 https://www.acmicpc.net/problem/2884  
 >   
-> Clear!
+> #### Clear!
 
 > ### 2020/09/30 - BaekJoon 알고리즘 
 > 문제번호  
@@ -19,13 +19,13 @@
 > * 10950 A+B - 3 https://www.acmicpc.net/problem/10950  
 > * 8393 합 https://www.acmicpc.net/problem/8393  
 >
-> Clear!
+> #### Clear!
                                         
 > ### 2020/10/01 - BaekJoon 알고리즘 
 > 문제번호 
 > * 15552 빠른 A+B https://www.acmicpc.net/problem/15552 __(BufferedReader와 BufferedWriter 사용관련 문제)__
 > 
-> Clear! 
+> #### Clear! 
                                              
 > ### 2020/10/02 - BaekJoon 알고리즘 
 > 문제번호 
@@ -34,18 +34,18 @@
 > * 11021 A+B - 7 https://www.acmicpc.net/problem/11021
 > * 11022 A+B - 8 https://www.acmicpc.net/problem/11022
 >
-> Clear!
+> #### Clear!
 
 > ### 2020/10/03 - BaekJoon 알고리즘 
-> #### 문제번호  
+> 문제번호  
 > * 2438 별 찍기 - 1 https://www.acmicpc.net/problem/2438
 > * 2439 별 찍기 - 2 https://www.acmicpc.net/problem/2439
 >   
-> Clear!
+> #### Clear!
                                         
 > ### 2020/10/04 - BaekJoon 알고리즘 
 > 문제번호  
 > * 10871 X보다 작은 수 https://www.acmicpc.net/problem/10871
 >     
-> Clear! (for 문 단계 All Clear)
+> #### Clear! ### (for 문 단계 All Clear)
                                          
