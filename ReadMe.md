@@ -7,13 +7,15 @@
 
 ## [ 진행상황 ] 
 
-> 2020/09/29 - BaekJoon 알고리즘 문제번호 
+> 2020/09/29 - BaekJoon 알고리즘 
+문제번호
 
   2884 알람시계 https://www.acmicpc.net/problem/2884 
   
 Clear!
 
-> 2020/09/30 - BaekJoon 알고리즘 문제번호 
+> 2020/09/30 - BaekJoon 알고리즘
+문제번호
 
   2739 구구단 https://www.acmicpc.net/problem/2739
   10950 A+B - 3 https://www.acmicpc.net/problem/10950
@@ -21,7 +23,8 @@ Clear!
   
 Clear!
                                         
-> 2020/10/01 - BaekJoon 알고리즘 문제번호 
+> 2020/10/01 - BaekJoon 알고리즘
+문제번호 
 
   15552 빠른 A+B https://www.acmicpc.net/problem/15552 (BufferedReader와 BufferedWriter 사용관련 문제)
   
