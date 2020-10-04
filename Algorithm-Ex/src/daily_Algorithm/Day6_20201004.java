@@ -21,16 +21,26 @@ public class Day6_20201004 {
 		int N = Integer.parseInt(st.nextToken());
 		int X = Integer.parseInt(st.nextToken());
 		
-		int A[] = new int[N];
+		// 배열 사용
+//		int A[] = new int[N];
 		StringTokenizer num = new StringTokenizer(br.readLine());
+//		for(int i=0; i<N; i++) {
+//			A[i] = Integer.parseInt(num.nextToken());
+//			
+//			if(A[i]< X) {
+//				bw.write(A[i]+" ");
+//			}
+			
+//		}
+		
+		// 배열 사용 x
 		for(int i=0; i<N; i++) {
-			A[i] = Integer.parseInt(num.nextToken());
-			
-			if(A[i]< X) {
-				bw.write(A[i]+" ");
+			int a = Integer.parseInt(num.nextToken());
+			if(a < X) {
+				bw.write(a+" ");
 			}
-			
 		}
+		
 		bw.flush();
 		
 	}
