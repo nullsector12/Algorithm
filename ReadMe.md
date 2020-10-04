@@ -9,7 +9,7 @@
 
 > ### 2020/09/29 - BaekJoon 알고리즘   
 > 문제번호
-> * 2884 알람시계 https://www.acmicpc.net/problem/2884  
+> * 2884: [알람시계][Link] [Link]: https://www.acmicpc.net/problem/2884 "2884번"
 >   
 > #### Clear!
 
@@ -47,5 +47,5 @@
 > 문제번호  
 > * 10871 X보다 작은 수 https://www.acmicpc.net/problem/10871
 >     
-> #### Clear! ### (for 문 단계 All Clear)
+> #### Clear! (for 문 단계 All Clear)
                                          
