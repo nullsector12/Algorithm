@@ -37,13 +37,13 @@
 > Clear!
 
 > ### 2020/10/03 - BaekJoon 알고리즘 
-> 문제번호  
+> #### 문제번호  
 > * 2438 별 찍기 - 1 https://www.acmicpc.net/problem/2438
 > * 2439 별 찍기 - 2 https://www.acmicpc.net/problem/2439
 >   
 > Clear!
                                         
-> ### 2020/10/04 - BackJoon 알고리즘 
+> ### 2020/10/04 - BaekJoon 알고리즘 
 > 문제번호  
 > * 10871 X보다 작은 수 https://www.acmicpc.net/problem/10871
 >     
