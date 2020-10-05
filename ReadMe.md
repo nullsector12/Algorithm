@@ -54,7 +54,7 @@
 > 문제번호  
 > * 10952번: A+B - 5 https://www.acmicpc.net/problem/10952
 > * 10951번: A+B - 4(EOF) https://www.acmicpc.net/problem/10951
-> * 1110번: 더하기  https://www.acmicpc.net/problem/1110
+> * 1110번: 더하기사이클 https://www.acmicpc.net/problem/1110
 >     
 > #### Clear! (for 문 단계 All Clear)
                                          
