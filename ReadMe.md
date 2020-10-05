@@ -49,4 +49,12 @@
 > * 10871번: X보다 작은 수 https://www.acmicpc.net/problem/10871
 >     
 > #### Clear! (for 문 단계 All Clear)
+
+> ### 2020/10/05 - BaekJoon 알고리즘 
+> 문제번호  
+> * 10952번: A+B - 5 https://www.acmicpc.net/problem/10952
+> * 10951번: A+B - 4(EOF) https://www.acmicpc.net/problem/10951
+> * 1110번: 더하기  https://www.acmicpc.net/problem/1110
+>     
+> #### Clear! (for 문 단계 All Clear)
                                          
