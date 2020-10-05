@@ -23,7 +23,8 @@
                                         
 > ### 2020/10/01 - BaekJoon 알고리즘 
 > 문제번호 
-> * 15552번: 빠른 A+B https://www.acmicpc.net/problem/15552 __(BufferedReader와 BufferedWriter 사용관련 문제)__
+> * 15552번: 빠른 A+B https://www.acmicpc.net/problem/15552  
+    __(BufferedReader와 BufferedWriter 사용관련 문제)__
 > 
 > #### Clear! 
                                              
