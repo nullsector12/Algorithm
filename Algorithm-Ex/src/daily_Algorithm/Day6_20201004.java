@@ -5,7 +5,7 @@ import java.util.*;
 
 /*
  *  2020. 10. 04 Daily Algorithm 
- *  Day3 - baekjoon 단계별 문제풀이 문제번호 10871번 
+ *  Day6 - baekjoon 단계별 문제풀이 문제번호 10871번 
  * 	x보다 작은 수 
  * 
  * 

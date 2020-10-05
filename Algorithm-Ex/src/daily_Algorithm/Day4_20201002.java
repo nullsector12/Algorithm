@@ -5,7 +5,7 @@ import java.util.*;
 
 /*
  *  2020. 10. 02 Daily Algorithm 
- *  Day3 - baekjoon 단계별 문제풀이 문제번호 2741번 2742번 11021번 11022번
+ *  Day4 - baekjoon 단계별 문제풀이 문제번호 2741번 2742번 11021번 11022번
  * 	N 찍기 / 기찍 N / A+B - 7 / A+B - 8
  * 
  * 

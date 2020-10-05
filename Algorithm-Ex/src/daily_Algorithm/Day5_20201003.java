@@ -5,8 +5,8 @@ import java.util.*;
 
 /*
  *  2020. 10. 03 Daily Algorithm 
- *  Day3 - baekjoon 단계별 문제풀이 문제번호 2438번 2439번 
- * 	* 찍기 - 1 / * 찍기 - 2 
+ *  Day5 - baekjoon 단계별 문제풀이 문제번호 2438번 2439번 
+ * 	별 찍기 - 1 / 별 찍기 - 2 
  * 
  * 
  */
