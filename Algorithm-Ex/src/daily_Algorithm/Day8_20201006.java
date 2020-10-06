@@ -2,12 +2,9 @@ package daily_Algorithm;
 
 
 /*
- *  2020. 10. 05 Daily Algorithm 
- *  Day7 - baekjoon 단계별 문제풀이 문제번호 10952번, 10951번, 1110번
- * 	A+B - 5 / A+B - 4 / 더하기 사이클
- * 
- * 	EOF?
- * 	End Of File (파일의 끝)
+ *  2020. 10. 06 Daily Algorithm 
+ *  Day8 - baekjoon 단계별 문제풀이 문제번호 10818
+ * 	최소, 최대
  * 
  * 
  */
