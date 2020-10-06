@@ -51,6 +51,25 @@ public class Day7_20201005 {
 //		} while end
 //		bw.flush(); // A+B - 4 end
 		
+		// 더하기 사이클
+		int N = Integer.parseInt(br.readLine());
+		int n = N;
+		int sum = 0;
+		int cycle = 0;
+		
+		while(true) {
+			int frontNum = (n/10); // 주어진 수의 십의 자리 수
+			int backNum = (n%10); // 주어진 수의 일의 자리 수
+			sum = frontNum+backNum; // 두 값의 합
+			n = (backNum*10)+(sum%10); // 새로운 수 = 일의 자리 수를 십의 자리 수 값으로, 두 값의 합의 일의 자리 수 값을 일        의 자리 값으로
+			cycle++;
+			
+			if(n == sum) {
+				bw.write(cycle+"");
+				bw.flush();
+				break;
+			}
+		}
 		
 	}
 }
