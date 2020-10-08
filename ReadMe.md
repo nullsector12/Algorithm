@@ -69,4 +69,11 @@
 > * 2562번: 최댓값 https://www.acmicpc.net/problem/2562
 >     
 > #### Clear! (for 문 단계 All Clear)
+
+> ### 2020/10/08 - Programmers 코딩테스트 연습 
+> [정렬]  
+> * Level1 - K번째수 https://programmers.co.kr/learn/courses/30/lessons/42748
+> [해시]  
+> * Level1 - 완주하지 못한 선수 https://programmers.co.kr/learn/courses/30/parts/12077
+> #### Clear
                                          
