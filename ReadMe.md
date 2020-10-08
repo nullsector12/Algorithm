@@ -73,6 +73,7 @@
 > ### 2020/10/08 - Programmers 코딩테스트 연습 
 > [정렬]  
 > * Level1 - K번째수 https://programmers.co.kr/learn/courses/30/parts/12198  
+>  
 > [해시]  
 > * Level1 - 완주하지 못한 선수 https://programmers.co.kr/learn/courses/30/parts/12077  
 > #### Clear
