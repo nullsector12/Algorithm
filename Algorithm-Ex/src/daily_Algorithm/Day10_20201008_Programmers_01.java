@@ -9,7 +9,7 @@ import java.util.*;
  *  	 - 프로그래머스 코딩테스트 연습 [해시] 첫번째 문제 - "완주하지 못한 선수"
  * 
 */
-public class Day10_20201008_Sort {
+public class Day10_20201008_Programmers_01 {
 	
 	// 프로그래머스 코딩테스트 연습 [정렬] 첫번째 문제 - "K번째수" 
 	public int[] solution(int[] array, int[][] commands) throws IOException{
