@@ -7,7 +7,7 @@
 
 ## [ 진행상황 ] 
 
-> ### 2020/09/29 - BaekJoon 알고리즘   
+> ### 2020/09/29 - BaekJoon 알고리즘     
 > 문제번호
 > * 2884번: 알람시계 https://www.acmicpc.net/problem/2884
 >   
@@ -62,13 +62,13 @@
 > 문제번호  
 > * 10818번: 최소, 최대 https://www.acmicpc.net/problem/10818
 >     
-> #### Clear! ( 문 단계 All Clear)
+> #### Clear!
 
 > ### 2020/10/07 - BaekJoon 알고리즘 
 > 문제번호  
 > * 2562번: 최댓값 https://www.acmicpc.net/problem/2562
 >     
-> #### Clear! (for 문 단계 All Clear)
+> #### Clear!
 
 > ### 2020/10/08 - Programmers 코딩테스트 연습 
 > [정렬]  
