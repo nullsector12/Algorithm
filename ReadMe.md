@@ -56,13 +56,13 @@
 > * 10951번: A+B - 4(EOF) https://www.acmicpc.net/problem/10951
 > * 1110번: 더하기 사이클 https://www.acmicpc.net/problem/1110
 >     
-> #### Clear! ( 문 단계 All Clear)
+> #### Clear! (while 문 단계 All Clear)
 
 > ### 2020/10/06 - BaekJoon 알고리즘 
 > 문제번호  
 > * 10818번: 최소, 최대 https://www.acmicpc.net/problem/10818
 >     
-> #### Clear! (for 문 단계 All Clear)
+> #### Clear! ( 문 단계 All Clear)
 
 > ### 2020/10/07 - BaekJoon 알고리즘 
 > 문제번호  
