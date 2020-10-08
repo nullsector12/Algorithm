@@ -31,7 +31,7 @@ import java.util.Scanner;
  */
 
 	
-public class Day1_20200929 {
+public class Day01_20200929 {
 	
 	
 	public static void main(String[] args) {
