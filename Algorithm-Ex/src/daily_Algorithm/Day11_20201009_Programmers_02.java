@@ -3,9 +3,9 @@ package daily_Algorithm;
 import java.util.*;
 
 /*
- * 2020. 10. 08 Daily Algorithm
- * Day10 - 프로그래머스 코딩테스트 연습 [정렬] 첫번째 문제 - "K번째수"
- *  	 - 프로그래머스 코딩테스트 연습 [해시] 첫번째 문제 - "완주하지 못한 선수"
+ * 2020. 10. 09 Daily Algorithm
+ * Day11 - 프로그래머스 코딩테스트 연습 [완전탐색] 첫번째 문제 - "모의고사"
+ *  	 
  * 
 */
 public class Day11_20201009_Programmers_02 {
@@ -22,11 +22,27 @@ public class Day11_20201009_Programmers_02 {
 	for(int i=0;i < answers.length; i++) {
 		for(int j=0; j<supoja; j++) { // 수포자 인원 만큼 반복
 			if(answers[i] == supoAnswers[j][i % supoAnswers[j].length]) {
-				point[j] += 1;
-				
+				point[j] += 1;	
 			}
+			// 실패한 방법 : i의 값이 변하지 않아서 전체 답안의 비교가 불가능
+//			for(int k=0; k<supoAnswers[j].length;k++) {
+//				if(answers[i] == supoAnswers[j][k]) {
+//					point[j] +=1;
+//				}
+//			}
 		}	
 	}
+
+	// 실패한 답안 2
+//	for(int i=0;i < supoja; i++) {
+//		for(int j=0; j<supoAnswers[i].length; j++) { 
+//			for(int k=0; k<answers.length; k++) {
+//				if(answers[k] == supoAnswers[i].length) {
+//					point[i] +=1;
+//				}
+//			}
+//		}	
+//	}
 	
 	// 가장 많이 맞춘 숫자를 찾음
 	int highScore = 0;
@@ -44,15 +60,16 @@ public class Day11_20201009_Programmers_02 {
 	List<Integer> result = new ArrayList<Integer>(); // 결과를 담을 List
 	for(int i =0; i < supoja; i++) {
 		if(point[i] == highScore) {
-			result.add(i, i+1);
+			result.add(i);
 		}
 	}
 	int[] answer = new int[result.size()];
 	
 	for(int i =0; i< answer.length; i++) {
-		answer[i] = result.get(i);
+		answer[i] = result.get(i)+1;
 	}
 	Arrays.sort(answer);
+	System.out.println(Arrays.toString(answer));
 	
 	return answer;
 	}
@@ -60,11 +77,8 @@ public class Day11_20201009_Programmers_02 {
 	public static void main(String[] args) {
 		Day11_20201009_Programmers_02 sol = new Day11_20201009_Programmers_02();
 		
-		int[] answers = {1,2,3,4,5};
+		int[] answers = {1,3,2,4,2};
 		sol.solution(answers);
-		
-		
-		System.out.println();
 	}
 }
 
