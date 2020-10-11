@@ -76,5 +76,11 @@
 >  
 > [해시]  
 > * Level1 - 완주하지 못한 선수 https://programmers.co.kr/learn/courses/30/parts/12077  
-> #### Clear
+> #### Clear!   
+  
+> ### 2020/10/09 - Programmers 코딩테스트 연습 
+> [완전 탐색]  
+> * Level1 - 모의고사 https://programmers.co.kr/learn/courses/30/parts/12230 
+>  
+> #### Clear!  
                                          
