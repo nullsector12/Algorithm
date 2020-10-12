@@ -83,4 +83,22 @@
 > * Level1 - 모의고사 https://programmers.co.kr/learn/courses/30/parts/12230 
 >  
 > #### Clear!  
+  
+> ### 2020/10/10 - Programmers 코딩테스트  
+> 
+> 2020 Programmers Dev-Matching 코딩테스트 (문제 공유 안됨)
+>  
+> #### Fail;  
                                          
+> ### 2020/10/11 - BaekJoon 알고리즘 
+> 문제번호  
+> * 2577번: 숫자의 개수 https://www.acmicpc.net/problem/2577    
+>  
+> #### Clear!  
+  
+> ### 2020/10/12 - BaekJoon 알고리즘 
+> 문제번호  
+> * 3052번: 나머지 https://www.acmicpc.net/problem/3052  
+> * 1546번: 평균 https://www.acmicpc.net/problem/1546  
+>  
+> #### Clear!  
