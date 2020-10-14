@@ -102,3 +102,13 @@
 > * 1546번: 평균 https://www.acmicpc.net/problem/1546  
 >  
 > #### Clear!  
+  
+> ### 2020/10/13 - 외부활동으로 인해 휴무 
+> 
+> #### Pass
+
+> ### 2020/10/14 - BaekJoon 알고리즘 
+> 문제번호  
+> * 8958번: OX퀴즈 https://www.acmicpc.net/problem/8958  
+>  
+> #### Clear!  
