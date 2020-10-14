@@ -17,7 +17,7 @@ public class Day14_20201012 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		StringTokenizer st;
-		
+//		
 //		// 키값과 Value를 담아줄 Map 선언
 //		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 //		
@@ -25,8 +25,8 @@ public class Day14_20201012 {
 //			// key를 입력받은 값%42로 설정 why? HashMap은 중복 키값을 허용하지 않음
 //			int key = (Integer.parseInt(br.readLine()))%42;
 //			
-//			// 따라서 같은 key값이 들어오면 value에 +1 해줌
-//			map.put(key, map.getOrDefault(key, 0)+1);
+//			// 따라서 같은 key값이 들어오면 원래 있던 key는 소멸
+//			map.put(key, 1);
 //		}
 //        
 //		// map의 size()만큼 서로 다른 key값, 즉 다른 수가 들어온 것 
@@ -40,7 +40,7 @@ public class Day14_20201012 {
 		
 		// 입력받은 토큰을 배열에 저장하고
 		for(int i=0; i<N; i++) {
-			arr[i] = Integer.parseInt(st.nextToken());
+			arr[i] = Double.valueOf(st.nextToken());
 			
 			// 입력받은 값 중 가장 큰 값을 찾아줌
 			if(arr[i]>M) {
