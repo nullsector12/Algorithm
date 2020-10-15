@@ -117,4 +117,4 @@
 > 문제번호  
 > * 4344번: 평균은 넘겠지 https://www.acmicpc.net/problem/4344  
 >  
-> #### Clear!  
+> #### Clear! (1차원 배열 단계 All Clear!)  
