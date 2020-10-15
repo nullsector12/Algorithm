@@ -112,3 +112,9 @@
 > * 8958번: OX퀴즈 https://www.acmicpc.net/problem/8958  
 >  
 > #### Clear!  
+  
+> ### 2020/10/15 - BaekJoon 알고리즘 
+> 문제번호  
+> * 4344번: 평균은 넘겠지 https://www.acmicpc.net/problem/4344  
+>  
+> #### Clear!  
