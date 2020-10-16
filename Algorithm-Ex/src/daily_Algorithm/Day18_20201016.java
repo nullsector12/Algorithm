@@ -2,8 +2,8 @@ package daily_Algorithm;
 
 /*
  *  2020. 10. 16 Daily Algorithm 
- *  Day18 - baekjoon 단계별 문제풀이 문제번호 15596, 4673, 1065
- * 	정수 N개의 합, 셀프 넘버, 한수
+ *  Day18 - baekjoon 단계별 문제풀이 문제번호 15596, 4673
+ * 	정수 N개의 합, 셀프 넘버
  * 
  * 
  */
