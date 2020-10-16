@@ -118,3 +118,10 @@
 > * 4344번: 평균은 넘겠지 https://www.acmicpc.net/problem/4344  
 >  
 > #### Clear! (1차원 배열 단계 All Clear!)  
+  
+> ### 2020/10/16 - BaekJoon 알고리즘 
+> 문제번호  
+> * 15596번: 정수 N개의 합 https://www.acmicpc.net/problem/15596  
+> * 4673번: Self Number https://www.acmicpc.net/problem/4673  
+>  
+> #### Clear!   
