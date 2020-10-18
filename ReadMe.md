@@ -117,7 +117,7 @@
 > 문제번호  
 > * 4344번: 평균은 넘겠지 https://www.acmicpc.net/problem/4344  
 >  
-> #### Clear! (1차원 배열 단계 All Clear!)  
+> #### Clear! (1차원 배열 단계 All Clear)  
   
 > ### 2020/10/16 - BaekJoon 알고리즘 
 > 문제번호  
@@ -125,3 +125,15 @@
 > * 4673번: Self Number https://www.acmicpc.net/problem/4673  
 >  
 > #### Clear!   
+  
+> ### 2020/10/17 - Programmers 알고리즘 강의(Python)  
+> Part.3 정렬과 탐색(Sorting & Searching)  
+> 실습 : 이진 탐색 구현해보기 https://programmers.co.kr/learn/courses/57 
+>  
+> #### Clear!   
+  
+> ### 2020/10/18 - BaekJoon 알고리즘 
+> 문제번호  
+> * 1065번: 한수 https://www.acmicpc.net/problem/1065  
+>  
+> #### Clear! (함수 단계 All Clear)  
