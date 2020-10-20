@@ -62,8 +62,5 @@ public class Day20_20201018 {
 		int N = Integer.parseInt(br.readLine());
 		
 		System.out.println(hanNumber(N));
-		
-		
 	}
-	
 }
