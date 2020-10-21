@@ -137,3 +137,19 @@
 > * 1065번: 한수 https://www.acmicpc.net/problem/1065  
 >  
 > #### Clear! (함수 단계 All Clear)  
+  
+> ### 2020/10/19 - 여행으로 인한 휴무  
+>  
+  
+> ### 2020/10/20 - BaekJoon 알고리즘 
+> 문제번호  
+> * 11654번: 아스키 코드 https://www.acmicpc.net/problem/11654
+> * 11720번: 숫자의 합 https://www.acmicpc.net/problem/11720
+>  
+> #### Clear!  
+  
+> ### 2020/10/20 - BaekJoon 알고리즘 
+> 문제번호  
+> * 10809번: 알파벳  https://www.acmicpc.net/problem/10809
+>  
+> #### Clear!
