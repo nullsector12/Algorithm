@@ -43,9 +43,12 @@ public class Day03_20201001 {
 			int B = Integer.parseInt(st.nextToken());
 		
 			int result = A+B;
+			System.out.println(result);
 			
 			// 결과 출력
-			bw.write(result +"\n"); // 자동 줄바꿈이 없기때문에 "\n"을 통해 줄바꿈해준다.
+//			bw.write(result +"\n"); // 자동 줄바꿈이 없기때문에 "\n"을 통해 줄바꿈해준다.
+			bw.write(A+B+"");
+			bw.newLine();
 			
 		}
 		
