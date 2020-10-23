@@ -13,7 +13,6 @@ import java.util.*;
 
 public class Day25_20201023 {
 	
-	
 	// 입력받은 단어의 알파벳들을 키값으로 중복된 키가 들어오면 value를 +1 해주는 메소드
 	public static Map keyAndValue (byte[] S) {
 		
@@ -74,7 +73,6 @@ public class Day25_20201023 {
 	
 	}
 
-	
 	public static void main(String[] args) throws IOException{
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
