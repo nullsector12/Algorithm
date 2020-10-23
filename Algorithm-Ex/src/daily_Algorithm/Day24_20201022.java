@@ -1,9 +1,9 @@
 package daily_Algorithm;
 
 /*
- *  2020. 10. 20 Daily Algorithm 
- *  Day22 - baekjoon 단계별 문제풀이 문제번호 11654, 11720
- * 	아스키 코드, 숫자의 합
+ *  2020. 10. 22 Daily Algorithm 
+ *  Day24 - baekjoon 단계별 문제풀이 문제번호 2675
+ * 	문자열 반복
  * 
  */
 
@@ -17,24 +17,29 @@ public class Day24_20201022 {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		StringTokenizer st;
 		
+		// 테스트 케이스 수 입력
 		int T = Integer.parseInt(br.readLine());
-		int R = 0;
-		String S = "";
 		
+		// 테스트 케이스 수 만큼 반복
 		for(int i=0; i<T; i++) {
+			
+			//  R과 S는 공백으로 구분되어 주어짐 -> StringTokenizer
 			st = new StringTokenizer(br.readLine());
-			R = Integer.parseInt(st.nextToken());
-			S = st.nextToken();
+			int R = Integer.parseInt(st.nextToken());
+			String S = st.nextToken();
+			
+			// 입력한 S의 길이만큼 반복
 			for(int j=0; j<S.length(); j++) {
+				
+				// 테스트 케이스 반복 횟수 만큼 
 				for(int a=0; a<R; a++) {
+					// 문자열 S의 charAt(j)만큼 반복하여 입력
 					bw.write(S.charAt(j));
 				}
-				
 			}
-			bw.write("\n");
+			// 입력 하나가 끝나면 개행
+			bw.newLine();
 		}
-		
 		bw.flush();
-
 	}
 }
