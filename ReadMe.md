@@ -127,8 +127,8 @@
 > #### Clear!   
   
 > ### 2020/10/17 - Programmers 알고리즘 강의(Python)  
-> Part.3 정렬과 탐색(Sorting & Searching)  
-> 실습 : 이진 탐색 구현해보기 https://programmers.co.kr/learn/courses/57 
+> * Part.3 정렬과 탐색(Sorting & Searching)  
+> 실습 : 이진 탐색 구현해보기 https://programmers.co.kr/learn/courses/57  
 >  
 > #### Clear!   
   
@@ -158,6 +158,7 @@
 > ### 2020/10/22 - BaekJoon 알고리즘, Programmers 
 > 문제번호  
 > * 2675번: 문자열 반복  https://www.acmicpc.net/problem/2675
+> * Part.4 재귀 알고리즘(Recursive Algorithm) 기초  
 > 실습 : 재귀 알고리즘 https://programmers.co.kr/learn/courses/57 
 >  
 > #### Clear!
