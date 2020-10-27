@@ -149,8 +149,40 @@
 >  
 > #### Clear!  
   
-> ### 2020/10/20 - BaekJoon 알고리즘 
+> ### 2020/10/21 - BaekJoon 알고리즘 
 > 문제번호  
 > * 10809번: 알파벳  https://www.acmicpc.net/problem/10809
 >  
 > #### Clear!
+  
+> ### 2020/10/22 - BaekJoon 알고리즘, Programmers 
+> 문제번호  
+> * 2675번: 문자열 반복  https://www.acmicpc.net/problem/2675
+> 실습 : 재귀 알고리즘 https://programmers.co.kr/learn/courses/57 
+>  
+> #### Clear!
+  
+> ### 2020/10/23 - BaekJoon 알고리즘 
+> 문제번호  
+> * 1157번: 단어 공부  https://www.acmicpc.net/problem/1157
+>  
+> #### Clear!  
+  
+> ### 2020/10/24 - BaekJoon 알고리즘 
+> 문제번호  
+> * 1152번: 단어의 갯수  https://www.acmicpc.net/problem/1152
+>  
+> #### Clear!  
+  
+> ### 2020/10/25 - BaekJoon 알고리즘 
+> 문제번호  
+> * 2908번: 상수  https://www.acmicpc.net/problem/2908 
+> * 5622번: 다이얼  https://www.acmicpc.net/problem/5622 
+>  
+> #### Clear!  
+  
+> ### 2020/10/26 - BaekJoon 알고리즘 
+> 문제번호  
+> * 2941번: 크로아티아 알파벳  https://www.acmicpc.net/problem/2941
+>  
+> #### Clear!    
