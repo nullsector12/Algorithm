@@ -11,7 +11,7 @@ import java.io.*;
 import java.util.*;
 
 
-public class Day26_20201024 {
+public class Day23_20201024 {
 	
 	public static void main(String[] args) throws IOException{
 		

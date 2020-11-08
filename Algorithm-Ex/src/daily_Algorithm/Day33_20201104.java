@@ -76,10 +76,10 @@ public class Day33_20201104 {
 			}
 		}
 		
-		System.out.println(result);
+//		System.out.println(result);
 		// 않이이개외않돼?
-//		bw.write(Integer.toString(result));
-//		bw.flush();
-//		bw.close();
+		bw.write(Integer.toString(result));
+		bw.flush();
+		bw.close();
 	}
 }

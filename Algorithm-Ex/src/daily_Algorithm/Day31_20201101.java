@@ -9,7 +9,7 @@ package daily_Algorithm;
 
 import java.io.*;
 
-public class Day34_20201101 {
+public class Day31_20201101 {
 	 
 	public static char[][] stars;
 	

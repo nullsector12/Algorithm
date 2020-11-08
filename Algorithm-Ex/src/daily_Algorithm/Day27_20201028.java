@@ -11,7 +11,7 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 
-public class Day30_20201028 {
+public class Day27_20201028 {
 	
 	public static void main(String[] args) throws IOException{
 		

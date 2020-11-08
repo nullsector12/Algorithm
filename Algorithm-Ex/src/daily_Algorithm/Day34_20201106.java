@@ -2,8 +2,8 @@ package daily_Algorithm;
 
 /*
  *  2020. 11. 06 Daily Algorithm 
- *  Day34 - baekjoon 단계별 문제풀이 문제번호 2798
- * 	블랙잭
+ *  Day34 - baekjoon 단계별 문제풀이 문제번호 2231
+ * 	분해합
  * 
  */
 

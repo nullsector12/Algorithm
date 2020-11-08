@@ -10,7 +10,7 @@ package daily_Algorithm;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Day31_20201029 {
+public class Day28_20201029 {
 	
 	public static void main(String[] args) throws IOException{
 		

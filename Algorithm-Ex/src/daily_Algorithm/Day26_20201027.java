@@ -9,7 +9,7 @@ package daily_Algorithm;
 
 import java.io.*;
 
-public class Day29_20201027 {
+public class Day26_20201027 {
 	
 public static boolean groupCheck(String s) throws IOException{
 		

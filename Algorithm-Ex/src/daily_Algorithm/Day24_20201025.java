@@ -10,7 +10,7 @@ package daily_Algorithm;
 import java.io.*;
 import java.util.*;
 
-public class Day27_20201025 {
+public class Day24_20201025 {
 	
 	public static void main(String[] args) throws IOException{
 		

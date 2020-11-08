@@ -2,14 +2,14 @@ package daily_Algorithm;
 
 /*
  *  2020. 11. 03 Daily Algorithm 
- *  Day35 - baekjoon 단계별 문제풀이 문제번호 11729
+ *  Day32 - baekjoon 단계별 문제풀이 문제번호 11729
  * 	하노이의 탑
  * 
  */
 
 import java.io.*;
 
-public class Day35_20201102 {
+public class Day32_20201103 {
 	static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 	
 	public static void towerOfHanoi (int N, int fst_Pole, int snd_Pole, int trd_Pole) throws IOException {

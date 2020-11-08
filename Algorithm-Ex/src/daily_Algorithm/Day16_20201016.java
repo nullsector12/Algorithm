@@ -10,7 +10,7 @@ package daily_Algorithm;
 
 import java.io.*;
 import java.util.*;
-public class Day18_20201016 {
+public class Day16_20201016 {
 
 	// 15596번 문제 풀이
 	public long sum(int[] a) {

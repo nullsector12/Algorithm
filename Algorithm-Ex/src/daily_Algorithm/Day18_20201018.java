@@ -14,7 +14,7 @@ package daily_Algorithm;
  */
 
 import java.io.*;
-public class Day20_20201018 {
+public class Day18_20201018 {
 
 	// 수열을 계산해 줄 함수 생성
 	public static int hanNumber(int N) {

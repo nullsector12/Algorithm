@@ -9,7 +9,7 @@ package daily_Algorithm;
  */
 
 
-public class Day19_20201017 {
+public class Day17_20201017 {
 
 	// 20201017 알고리즘 풀이는 파이썬 알고리즘 강의 문제로 대체
 	// 프로그래머스 - 어서와! 자료구조와 알고리즘은 처음이지?

@@ -1,23 +1,23 @@
 package daily_Algorithm;
 
 /*
- *  2020. 10. 31 Daily Algorithm 
- *  Day32 - baekjoon 단계별 문제풀이 문제번호 10870
- * 	피보나치 수5
+ *  2020. 10. 30 Daily Algorithm 
+ *  Day32 - baekjoon 단계별 문제풀이 문제번호 10872
+ * 	팩토리얼
  * 
  */
 
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Day33_20201031 {
+public class Day29_20201030 {
 	
-	public static int fibonacci(int N) {
+	public static int factorial(int N) {
 		
-		if(N >= 2) {
-			N = fibonacci(N-2) + fibonacci(N-1);
+		if(N <= 1) {
+			return 1;
 		}
-		return N;
+		return N*factorial(N-1);
 	}
 	
 	
@@ -27,7 +27,7 @@ public class Day33_20201031 {
 		
 		int N = Integer.parseInt(br.readLine());
 		
-		System.out.println(fibonacci(N));
+		System.out.println(factorial(N));
 
 	}
 }
