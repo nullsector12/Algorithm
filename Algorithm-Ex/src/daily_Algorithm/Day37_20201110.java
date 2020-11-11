@@ -23,7 +23,7 @@ public class Day37_20201110 {
 		String makeLadder = "";
 		while(makeLadder != "x") {
 			st = new StringTokenizer(br.readLine());
-//			System.out.println("새로운 수를 입력하세요!");
+
 			String check = st.nextToken();
 			
 			if(check.equals("x")) {
@@ -34,7 +34,6 @@ public class Day37_20201110 {
 				int columm = Integer.parseInt(check);
 				int row = Integer.parseInt(st.nextToken());
 				stick[columm][row] = true;
-//				System.out.println(columm +" "+row+" = "+stick[columm][row]);
 			}
 		}
 		
@@ -51,6 +50,6 @@ public class Day37_20201110 {
 				System.out.println("현재 포인트는 ("+i+", "+startPoint+")");
 			}
 		}
-		System.out.println(startPoint);
+		System.out.println("도착!"+startPoint);
 	}
 }
