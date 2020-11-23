@@ -10,11 +10,35 @@ package daily_Algorithm;
 import java.io.*;
 import java.util.StringTokenizer;
 
+/**
+ * @packageName	: daily_Algorithm
+ * @fileName	: Day37_20201110.java
+ * @author		: 김승연
+ * @date		: 2020.11.10
+ * @description	: 
+ * ===================================================
+ * DATE				AUTHOR				NOTE
+ * ---------------------------------------------------
+ * 2020.11.10  		김승연			First Create
+ *
+ */
 public class Day37_20201110 {
+	
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));	
 	static StringTokenizer st;
 	static boolean[][] ladder;
 	
+	
+	
+	/**
+	 *
+	 * @methodName	: makeLadder
+	 * @author		: 김승연
+	 * @date		: 2020.11.10
+	 * @param ladder
+	 * @return boolean[][]
+	 * @throws IOException
+	 */
 	public static boolean[][] makeLadder(boolean[][] ladder) throws IOException {
 		
 		System.out.println("만드실 사다리 정보를 입력해주세요.");
@@ -22,14 +46,16 @@ public class Day37_20201110 {
 		+"\n"+"enter를 누르시면 다음 사다리를 입력 할 수 있고,"
 		+"\n"+"사다리 입력이 완료됐다면 x를 입력하고 enter하시면 됩니다.");
 		
-		String makeLadder = "";
-		while(makeLadder != "x") {
+		
+		while(true) {
 			st = new StringTokenizer(br.readLine());
 
 			String check = st.nextToken();
 			
 			if(check.equals("x")) {
-				makeLadder = check;
+				System.out.println("사다리 생성을 종료합니다... 게임을 시작합니다!");
+				System.out.println("	Good Luck	");
+				System.out.println("===================================");
 				break;
 				
 			}else {
@@ -41,6 +67,14 @@ public class Day37_20201110 {
 		return ladder;
 	}
 	
+	/**
+	 *
+	 * @methodName	: game
+	 * @author		: 김승연
+	 * @date		: 2020.11.10
+	 * @param ladder
+	 * @throws IOException
+	 */
 	public static void game(boolean[][] ladder) throws IOException {
 		
 		while(true) {
