@@ -16,7 +16,7 @@ public class Day51_20201130 {
 		
 		boolean answer = true;
 		
-		if(s.length() < 4 || s.length() == 5 || s.length() > 6) {
+		if(s.length() != 4 && s.length() != 6) {
 			answer = false;
 			return answer;
 		}
@@ -34,7 +34,7 @@ public class Day51_20201130 {
 
 
 	public static void main(String[] args) throws Exception{
-		String s = "1234567";
+		String s = "1234";
 		
 		System.out.println("결과 : "+ solution(s));
 		
