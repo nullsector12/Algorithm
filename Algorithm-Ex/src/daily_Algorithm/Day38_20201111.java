@@ -20,8 +20,8 @@ public class Day38_20201111 {
 		// N번째 상영 영화
 		int N = Integer.parseInt(br.readLine());
 		
-		// 처음 시작번호
-		int num = 666;
+		// 영화 넘버링 , 첫작품의 넘버링은 666
+		int numbering = 666;
 		
 		// 영화 발표 횟수
 		int count = 1; 
@@ -29,13 +29,13 @@ public class Day38_20201111 {
 		// 발표 횟수와 영화 상영의 수가 같아지면 종료
 		while(count != N) {
 			// 영화 번호를 하나씩 더해줌
-			num++;
-			// 추가되는 번호에 666이 있는 수가 나타날 때마다 
-			if(String.valueOf(num).contains("666")) {
+			numbering++;
+			// 넘버링에 666이라는 문자열이 나타날 때마다 
+			if(String.valueOf(numbering).contains("666")) {
 				// 발표 횟수를 더해줌
 				count++;
 			}
 		}
-		System.out.println(num);
+		System.out.println(numbering);
 	}
 }
