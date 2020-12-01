@@ -5,7 +5,7 @@ import java.util.*;
 
 /*
  *  2020. 11. 30 Daily Algorithm 
- *  Day50 - Programmers Cording Test Level 1
+ *  Day51 - Programmers Cording Test Level 1
  *  문자열 다루기 기본
  * 
  */
