@@ -20,7 +20,7 @@ import java.util.StringTokenizer;
  * DATE				AUTHOR				NOTE
  * ---------------------------------------------------
  * 2020.11.10  		김승연			First Create
- *
+ * 
  */
 public class Day37_20201110 {
 	
@@ -46,7 +46,8 @@ public class Day37_20201110 {
 		+"\n"+"enter를 누르시면 다음 사다리를 입력 할 수 있고,"
 		+"\n"+"사다리 입력이 완료됐다면 x를 입력하고 enter하시면 됩니다.");
 		
-		
+		// 사다리 생성
+		// 콘솔에 x를 입력하면 사다리 생성 종료
 		while(true) {
 			st = new StringTokenizer(br.readLine());
 
@@ -54,7 +55,7 @@ public class Day37_20201110 {
 			
 			if(check.equals("x")) {
 				System.out.println("사다리 생성을 종료합니다... 게임을 시작합니다!");
-				System.out.println("	Good Luck	");
+				System.out.println("	나만 아니면 돼 ~~~~	");
 				System.out.println("===================================");
 				break;
 				
@@ -69,6 +70,22 @@ public class Day37_20201110 {
 	
 	/**
 	 *
+	 * @methodName	: drawLadder
+	 * @author		: 김승연
+	 * @date		: 2020.12.10
+	 * @param player
+	 * @param ladder
+	 */
+	public static void drawLadder (int player, boolean[][] ladder) {
+		
+		for(int i=0; i<player; i++) {
+			
+		}
+		
+	}
+	
+	/**
+	 *
 	 * @methodName	: game
 	 * @author		: 김승연
 	 * @date		: 2020.11.10
@@ -77,6 +94,8 @@ public class Day37_20201110 {
 	 */
 	public static void game(boolean[][] ladder) throws IOException {
 		
+		// 게임 시작
+		// 시작점을 입력하면 생성한 사다리에 따라 도착지점까지 이동할 수 있다.
 		while(true) {
 			System.out.println("시작점을 입력하세요");
 			String startPoint = br.readLine();
@@ -104,8 +123,16 @@ public class Day37_20201110 {
 		
 		System.out.print("게임에 참여할 인원이 몇명인가요? : ");
 		
-		ladder = new boolean[12][Integer.parseInt(br.readLine())+1];
-		
+		while(true) {
+			try {
+				ladder = new boolean[12][Integer.parseInt(br.readLine())+1];
+				break;
+			} catch (NumberFormatException e) {
+				System.out.println("잘못된 입력입니다. 숫자를 입력해주세요.");
+				continue;
+			}
+		}
+	
 		game(makeLadder(ladder));
 		
 
