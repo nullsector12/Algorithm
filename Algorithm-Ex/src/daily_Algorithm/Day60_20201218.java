@@ -4,9 +4,9 @@ package daily_Algorithm;
 import java.util.*;
 
 /*
- *  2020. 12. 16 Daily Algorithm 
- *  Day59 - Programmers Cording Test Level 1
- *  이상한 문자 만들기
+ *  2020. 12. 18 Daily Algorithm 
+ *  Day60 - Programmers Cording Test Level 1
+ *  자릿수 더하기
  * 
  */
 
@@ -18,14 +18,10 @@ public class Day60_20201218 {
 		int slice = 0;
 		
 		while(n>0) {
-		
 			slice = n%10;
 			n = n/10;
 			answer += slice;
-			
 		}
-		
-		
 		return answer;
 	}	
 	
