@@ -25,7 +25,7 @@ public class Day61_20201219 {
 	
 	public static void main(String[] args) throws Exception{
 		
-		int n = 12345;
+		long n = 12345;
 		
 		System.out.println(solution(n));
 		
