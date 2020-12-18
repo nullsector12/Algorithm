@@ -14,13 +14,10 @@ public class Day60_20201218 {
 	
 	public static int solution(int n)  {
 		int answer = 0;
-
-		int slice = 0;
 		
 		while(n>0) {
-			slice = n%10;
+			answer += n%10;
 			n = n/10;
-			answer += slice;
 		}
 		return answer;
 	}	
