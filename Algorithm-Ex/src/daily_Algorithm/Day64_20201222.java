@@ -11,31 +11,30 @@ import java.util.*;
 
 public class Day64_20201222 {
 	
-    public static int[] solution(int[] arr) {
-		int[] answer = new int[arr.length-1];
-		int minIndex = 0;
-		int min = arr[minIndex];
+    public static List<Integer> solution(int[] arr) {
 		
-		
-		
-		if(arr.length == 1) {
-			answer = new int[1];
-			answer[0] = -1;
-			return answer;
+    	List<Integer> answer = new ArrayList<Integer>();
+    	// arr의 길이가 1이거나 0일 때,
+    	if(arr.length == 1 || arr.length == 0) {
+    		answer.add(-1);
+    		return answer;
 		}
 		
+    	// int형인 arr을 Wrapper Class인 Integer형으로 변환
+    	Integer[] castArr = Arrays.stream(arr)
+    			.boxed()
+    			.toArray(Integer[]::new);
+    	
+    	// Integer형으로 변환한 배열을 다시 List로 변환하여 복사
+    	// asList는 Immutable한 List라 new 생성자를 통해
+    	// 새로 선언해주어야 remove나 addAll등의 메소드 사용이 가능하다.
+    	answer = new ArrayList<>(Arrays.asList(castArr));
 		
-		for(int i=1; i<arr.length; i++) {
-			if(arr[i] < min) {
-				minIndex = i;
-				min = arr[minIndex];
-			}
-			
-			if(i == arr.length-1 || i != 0) {
-				System.arraycopy(arr, 0, answer, 0, minIndex);
-				System.arraycopy(arr, minIndex-1, answer, minIndex, arr.length-minIndex-1);
-			}
-		}
+    	// 해당 List 내에서 가장 작은 수의 index번호를 구함
+		int minIndex = answer.indexOf(Collections.min(answer));
+		
+		// List내에서 해당 인덱스번호의 요소를 제외해줌
+		answer.remove(minIndex);
 		
 		return answer;
 	}
@@ -43,9 +42,9 @@ public class Day64_20201222 {
 	
 	public static void main(String[] args) throws Exception{
 		
-		int[] arr = {1};
+		int[] arr = {4,3,2,1};
 		
-		System.out.println(Arrays.toString(solution(arr)));
+		System.out.println(solution(arr));
 		
 	}
 }
